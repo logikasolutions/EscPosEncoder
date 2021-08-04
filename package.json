@@ -1,7 +1,7 @@
 {
-  "name": "esc-pos-encoder",
+  "name": "logika-esc-pos-encoder",
   "version": "2.0.0",
-  "description": "Create a set of commands that can be send to any receipt printer that supports ESC/POS",
+  "description": "This is a fork of https://github.com/NielsLeenheer/EscPosEncoder with a few fixes to the hexadecimals",
   "main": "src/esc-pos-encoder.js",
   "scripts": {
     "bundle": "browserify src/esc-pos-encoder.js --standalone EscPosEncoder -o dist/esc-pos-encoder.js",
@@ -21,7 +21,7 @@
     "receipt",
     "printer"
   ],
-  "author": "Niels Leenheer",
+  "author": "Logika Solutions",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/NielsLeenheer/EscPosEncoder/issues"
