@@ -8,7 +8,7 @@ Before you use this library, you should also consider [ThermalPrinterEncoder](ht
 
 First, install the package using npm:
 
-    npm install esc-pos-encoder --save
+    npm install logika-esc-pos-encoder --save
 
 Then, require the package and use it like so:
 
