@@ -262,6 +262,20 @@ class EscPosEncoder {
     return this;
   }
 
+  invert(value) {
+    if (typeof value === 'undefined') {
+        value = ! this._state.bold;
+    }
+
+    this._state.invert = value;
+
+    this._queue([
+        0x1d, 0x42, Number(value),
+    ]);
+
+    return this;
+  }
+
   /**
      * Change text size
      *
